@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca interativa</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img class="logo" src="imgs/logobet.png" alt="logotipo" />
+        <h1>BIBLIOTECA INFORMATIVA</h1>
+        <p>
+          "Informação confiável para entender, enfrentar e superar o vício em
+          apostas"
+        </p>
+      </div>
+    </header>
+
+    <nav>
+      <div id="barra-procura">
+        <ul>
+          <a href="index.html">HOME</a>
+          <a href="artigos.html">ARTIGOS</a>
+          <a href="videos.html">VIDEOS</a>
+          <a href="depoimentos.html">DEPOIMENTOS</a>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <button id="add-experience-btn">Postar Experiência</button>
+      <section></section>
+    </main>
+
+    <!-- Mini janela para escrever o depoimento -->
+    <div id="mini-window" class="mini-window">
+      <div class="mini-window-content">
+        <span class="close-btn">&times;</span>
+        <h3>Compartilhe sua Experiência</h3>
+        <textarea id="experience-input" rows="5" placeholder="Digite sua experiência aqui..."></textarea>
+        <button id="submit-experience-btn">Enviar</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 VicioBet. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
